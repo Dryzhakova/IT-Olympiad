@@ -1,0 +1,476 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[polish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[]{algorithm2e}
+\usepackage{listings}
+
+\usepackage{color}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\graphicspath{ {pictures/} }
+\lstloadlanguages{% Check Dokumentation for further languages ...
+	C,
+	C++,
+	csh,
+	Java
+}
+
+\definecolor{red}{rgb}{0.6,0,0} % for strings
+\definecolor{blue}{rgb}{0,0,0.6}
+\definecolor{green}{rgb}{0,0.8,0}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstset{
+	language=csh,
+	basicstyle=\footnotesize\ttfamily,
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=5pt,
+	tabsize=2,
+	extendedchars=true,
+	breaklines=true,
+	frame=b,
+	stringstyle=\color{blue}\ttfamily,
+	showspaces=false,
+	showtabs=false,
+	xleftmargin=17pt,
+	framexleftmargin=17pt,
+	framexrightmargin=5pt,
+	framexbottommargin=4pt,
+	commentstyle=\color{green},
+	morecomment=[l]{//}, %use comment-line-style!
+	morecomment=[s]{/*}{*/}, %for multiline comments
+	showstringspaces=false,
+	morekeywords={ abstract, event, new, struct,
+		as, explicit, null, switch,
+		base, extern, object, this,
+		bool, false, operator, throw,
+		break, finally, out, true,
+		byte, fixed, override, try,
+		case, float, params, typeof,
+		catch, for, private, uint,
+		char, foreach, protected, ulong,
+		checked, goto, public, unchecked,
+		class, if, readonly, unsafe,
+		const, implicit, ref, ushort,
+		continue, in, return, using,
+		decimal, int, sbyte, virtual,
+		default, interface, sealed, volatile,
+		delegate, internal, short, void,
+		do, is, sizeof, while,
+		double, lock, stackalloc,
+		else, long, static,
+		enum, namespace, string},
+	keywordstyle=\color{cyan},
+	identifierstyle=\color{red},
+}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{blue}{\parbox{\textwidth}{\hspace{15pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
+
+
+\addtolength{\hoffset}{-1.5cm}
+\addtolength{\marginparwidth}{-1.5cm}
+\addtolength{\textwidth}{3cm}
+\addtolength{\voffset}{-1cm}
+\addtolength{\textheight}{2.5cm}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+
+\begin{document}
+	
+	\title{Języki Skrypowe\\\small{dokumentacja projektu Antysymetria}
+	\begin{center}
+ 		\begin{large}
+ 		Politechnika Śląska\\Matematyka Stosowana, Informatyka\\Rok II, Semestr III, 2022/2023\\Grupa 1/2					\author{Kateryna Dryzhakova}
+ 		\end{large}
+	\end{center}
+	\date{\today}}
+
+	\maketitle
+	\newpage
+	\section*{Część I}
+	\subsection*{Opis programu}
+
+	Bajtazar studiuje różne napisy złożone z zer i jedynek. Niech  będzie takim napisem, przez I(R) będziemy oznaczać odwrócony(czyli "czytany wspak") napis I, a przez U będziemy oznaczać napis powstały z  przez zamianę wszystkich zer na jedynki, a jedynek na zera.
+
+Bajtazara interesuje antysymetria, natomiast niezbyt lubi wszystko co symetryczne. Antysymetria nie jest tylko prostym zaprzeczeniem symetrii. Powiemy, że (niepusty) napis I jest antysymetryczny, jeżeli dla każdej pozycji i w I, i-ty znak od końca jest różny od i-tego znaku, licząc od początku. W szczególności, niepusty napis  złożony z zer i jedynek jest antysymetryczny wtedy i tylko wtedy, gdy I = U(R). Na przykład, napisy 00001111 i 010101 są antysymetryczne, natomiast 1001 nie jest.
+
+W zadanym napisie złożonym z zer i jedynek chcielibyśmy wyznaczyć liczbę jego spójnych (tj. jednokawałkowych) niepustych fragmentów, które są antysymetryczne. Jeżeli różne fragmenty odpowiadają takim samym słowom, to i tak należy je policzyć wielokrotnie.
+
+Wejście
+Pierwszy wiersz standardowego wejścia zawiera liczbę n, oznaczającą długość napisu. Drugi wiersz zawiera napis złożony z liter 0 i/lub 1 o długości n. Napis ten nie zawiera żadnych odstępów.
+
+Wyjście
+Pierwszy i jedyny wiersz standardowego wyjścia powinien zawierać jedną liczbę całkowitą, oznaczającą liczbę spójnych fragmentów wczytanego napisu, które są antysymetryczne.
+
+	\subsection*{Instrukcja obsługi}
+
+	Aby uruchomić program należy włączyć skrypt menu.bat otwierający menu obsługi naszego programu.
+ Po uruchomieniu wyświetli nam się tekst z instrukcją obsługi programu,wymagający podania przez użytkownika liczby w celu wykonania odpowiadającej mu funkcji.
+ 
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{choice}
+    \caption{Główne menu programu}
+\end{figure}
+
+
+
+Możliwe wybory są następujące:
+\\1. Start the program - Uruchamia program pobierając przy tym wszystkie dane prez użytkownika i tworzy raport.html.
+
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{task1}
+    \caption{ Przykładowy komunikat o pomyślnej próbie uruchomienia programu}
+\end{figure}
+
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{raport}
+    \caption{Przykładowy raport programu}
+\end{figure}
+
+2. Program information - Wypisuje na ekranie konsoli opis założeń programu
+
+ \begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{information}
+    \caption{Przykładowy raport programu}
+\end{figure}
+
+3. Backup - Tworzy kopię zapasową danych w katalogu backups zawierającą raport.html oraz zawartość folderów input i output
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=1\textwidth]{cmdRaport}
+    \caption{Przykładowy raport programu}
+\end{figure}
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.5\textwidth]{treeBackups}
+    \caption{Przykładowy raport programu}
+\end{figure}
+
+4. Zakoncz - Zamyka menu, kończąc tym samym program.
+
+	Podanie innej liczby lub znaku, skutkuje powiadomieniem o wprowadzeniu niepoprawnego
+polecenia
+
+Struktura danych programu:
+
+Program składa się z następującej struktury danych,wymaganych do prawidłowego uruchomienia aplikacji:
+
+- menu.bat - Skrypt batch będący menu, którym uruchamia się program, wyświetla informacje o programie jak i tworzy kopie zapasową danych otrzymanych w wyniku wykonania tegoż programu.
+
+- antysymetria.py - Skrypt python zawierający główny program, pobierający pliki wejściowe zawierające wpisane przez użytkownika liczby i tworzący plik wyjścia zawierający liczbu fragmentów antysymetrycznych.
+
+- raport.py - Skrypt python pobierający dane z plików wejścia oraz wyjścia i generujący plik raport.html zawierający raport wszystkich danych w postaci tabeli.
+
+- Katalog input - pliki wejściowe zawierające zapisane dane przez użytkownika, nazwane według klucza:
+\begin{equation}
+     input0.txt
+\end{equation}
+
+Ponadto program w wyniku działania tworzy dodatkowo katalogi output, backups oraz plik raport.html\\
+
+\begin{figure}[ht!]  
+\vspace{-4ex} \centering \subfigure[]{
+\includegraphics[width=0.23\linewidth]{tree1} \label{fig:actuatorscouplingSheme_decoupledcase} }  
+\hspace{4ex}
+\subfigure[]{
+\includegraphics[width=0.22\linewidth]{tree2} \label{fig:actuatorscouplingSheme_nearestcoupledcase} }
+\hspace{4ex}
+\subfigure[]{ \includegraphics[width=0.24\linewidth]{tree3} \label{fig:actuatorscouplingSheme_nearestcoupled_and_diag_case} }  
+\caption{ Struktura danych programu w formie drzwa} 
+\end{figure}
+
+
+	\section*{Część II}
+	\subsection*{Opis działania} 
+Skrypt menu.sh pobiera liczby prez użytkownika i przekazuje pojedynczo jako argument do antysymetria.py. Następnie dla pobranej liczby program utworzy pętlę, która na początku sprawdzić czy podana długosc zbiega się z dłgosci liczby.
+
+Następnie, przejdzie przez każdy element napisu i sprawdzi, czy wybrany element oraz jego odpowiednik (element, który jest równy liczbie elementów napisu minus indeks elementu plus jeden) są różne. Jeśli tak, to należy zwiększyć licznik antysymetrycznych fragmentów o jeden.
+
+Dalej należy znaleźć wszystkie spójne fragmenty napisu, które są antysymetryczne. Można to zrobić, tworząc pętlę, która przejdzie przez każdy element napisu i sprawdzi, czy jego odpowiednik jest różny od niego. Jeśli tak, to sprawdzamy, czy fragment napisu od obecnego elementu do jego odpowiednika jest antysymetryczny. Jeśli tak, to zwiększamy licznik antysymetrycznych fragmentów o jeden.
+
+Finalnie program kolejno wypisuje zawartosc znalezionych fragmentów antysymetrycznych do pliku output.
+Otrzymane w ten sposób wyniki są następnie przetwarzane przez raport.py, który tworzy plik raport.html, który w tabeli umieszcza zarówno zawartość plików input oraz output, tylko
+i wyłącznie jeśli numer w ich nazwie jest taki sam, co sprawia, że raport zawiera jedynie pomyślnie wykonane iteracje programu. Ostatecznie uruchamiana jest domyślna przeglądarka użytkownika, w której wyświetla się
+utworzony raport.html.
+	
+    
+	\subsection*{Algorytmy}
+	
+	\begin{algorithm}[H]
+		\KwData{Dane wejściowe pobrane przez uzytkownika $dataInput,length$}
+		\KwResult{Dane wyjściowe plik output}
+		\While{$dataInput != length$}{
+			Enter another correct number\;
+			}
+		
+		 $amountAntisymmetricsFragments(dataInput, output)$
+		
+		Function amountAntisymmetricsFragments(dataInput, output)\\
+		\For{$i<dataInput.len$}{
+			\For{$i+1<dataInput.len+1$}{
+				\If{$antisymmetrics(dataInput[i:j])$}{
+					Dodaj do output;
+					Obliczyć liczbę wchodzenij;
+				}
+			}
+		}
+		\Return $liczbaWchodzenij$;
+		
+    	Function antisymmetrics(dataInput)\\
+		\For{$i<dataInput.len$}{
+			\If{$dataInput[i]<dataInput[-i-1]$}{
+				\Return $False$;
+			}
+			\Return $True$;
+		}
+		Przypisz do $output$ zawartość function $amountAntisymmetricsFragments$
+		\caption{Algorytm wyszukiwania antysymetrii liczby}
+	\end{algorithm}
+	
+	\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Dryzhakova_Projekt}
+    \caption{Schemat blokowy}
+\end{figure}
+	
+
+	\subsection*{Implementacja systemu}
+	Uruchomienie programu z poziomu skryptu menu.bat powoduje sprawdzenie czy istnieje katalog na pliki wynikowe "output", jeśli tak to usuwa go wraz z zawartością oraz tworzy go
+na nowo, następnie uruchamia antysymetria.py wraz z argumentem zadanym przez użytkownika. Jeśli program znalazł wynik i zakończył się powodzeniem, tworzy on
+plik wynikowy do katalogu "output". Sprawdzane jest czy w katalogu "output"znajdują się jakiekolwiek pliki. Jeśli tak to uruchamiany jest skrypt raport.py który tworzy plik raport.html w głównym katalogu projektu, a jeśli nie to program kończy się z odpowiednim komunikatem.
+
+Opcja wyświetlająca informacje wypisuje dane z pliku "information.txt"znajdującego się w katalogu "mój projekt".
+
+Wybranie funkcji backup sprawdza czy istnieje w głównym katalogu plik raport.html, jeśli tak to tworzy katalog "backups" o ile takowy juz nie istnieje, następnie tworzy katalog nazwany aktualną datą i godziną wewnątrz folderu "backups", który natomiast zawiera kopię całego stworżonego
+katalogu "input", katalogu "output" oraz pliku raport.html.\\\\
+
+\textbf{Wykorzystane biblioteki i przykłady ich użycia}\\
+\textbf{os}
+	\begin{lstlisting}
+		for f in os.listdir(dir):
+   			os.remove(os.path.join(dir, f))
+   		//sprawdza czy plik istnieje oraz usuwa go
+	\end{lstlisting}
+	\begin{lstlisting}
+		os.chdir("input")
+		//change the current directory to input directory
+	\end{lstlisting}
+\textbf{sys}
+\begin{lstlisting}
+		with open(sys.argv[1],"a+") as g:
+    		g.write(str(data_input))
+    	//zapisuje podanu liczbu do pliku
+	\end{lstlisting}
+	\subsection*{Testy}
+Dane wejściowe:
+Długość 8
+Liczba 11001011
+
+Wypisyemy antysymetryczne fragmenty: 
+01 (pojawia się dwukrotnie), 10 (także dwukrotnie), 0101, 1100 oraz 001011.
+
+Dane wyjściowe: 
+7
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{11001011}
+    \caption{Wynik programu w konsoli}
+\end{figure}
+
+Dane wejściowe:
+Długość 3
+Liczba 11001011
+
+Dane wyjściowe: 
+Powtórz wpisanie liczby
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.7\textwidth]{101}
+    \caption{Wynik programu w konsoli}
+\end{figure}
+
+Długość 4
+Liczba 1100
+
+Wypisyemy antysymetryczne fragmenty: 
+1100, 10.
+
+Dane wyjściowe: 
+2
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=0.6\textwidth]{1100}
+    \caption{Wynik programu w konsoli}
+\end{figure}
+
+
+	\newpage
+	\section*{Pełen kod aplikacji}
+\textbf{menu.bat}
+\begin{lstlisting}
+@echo off
+
+rem set choice_from_cli = %1
+echo Antysymetria Kateryna Dryzhakova
+:menu
+echo  ---------------------------
+echo             Menu             
+echo  ----------------------------
+echo.                             
+echo   1. Start the program       
+echo   2. Program information     
+echo   3. Backup                  
+echo   4. Exit                    
+echo  ----------------------------
+echo.
+set /p choice=Your choice(1-4) 
+
+if %choice%==1 goto task1
+if %choice%==2 goto task2
+if %choice%==3 goto task3
+if %choice%==4 goto exit
+echo Your choice is not included in the range 1-4
+goto menu
+:task1
+echo.
+IF EXIST raport.html DEL raport.html
+IF NOT EXIST output mkdir output
+echo "<HTML>" >> raport.html
+DEL /Q output
+for /f "delims=" %%a in ('dir /b input') do (
+    call python antysymetria.py %%a
+)
+call python raport.py
+echo.
+goto menu
+:task2
+echo.
+chcp 1251
+type information.txt
+pause
+echo.
+goto menu
+:task3
+echo.
+IF NOT EXIST backups mkdir backups
+set name=%date%--%TIME:~1,7%
+set name=%name::=-%
+IF EXIST raport.html mkdir backups\%name%
+robocopy input backups\%name%\input
+robocopy output backups\%name%\output
+copy raport.html backups\%name%\raport.html
+echo.
+goto menu
+:exit
+\end{lstlisting}
+
+\textbf{antysymetria.py}
+\begin{lstlisting}
+import sys
+import os
+
+def antisymmetrics(data_input):
+    for i in range(len(data_input)):
+        if data_input[i] == data_input[-i-1]:
+            return False
+    return True
+
+def amount_antisymmetrics_fragments(data_input, output):
+    count = 0
+    for i in range(len(data_input)):
+        for j in range(i+1, len(data_input)+1):
+            # sprawdzamy, czy podnapis o indeksach (i, j) jest antysymetryczny
+            if antisymmetrics(data_input[i:j]):
+                output += data_input[i:j]
+                output += " "
+                count += 1
+    return count
+
+dir = D:\university\Politechnika\Jezyki skryptowe\Projekt\Moj projekt\input
+for f in os.listdir(dir):
+    os.remove(os.path.join(dir, f))
+	
+length = int(input("Enter the length of the number > "))
+data_input = input("Enter your number > ")
+
+while(len(data_input) != length):
+	data_input = input("The string you entered is not the correct length. Please, try again > ")
+	
+os.chdir("input")
+
+with open(sys.argv[1],"a+") as g:
+    g.write(str(data_input))
+
+output = []
+
+amount = amount_antisymmetrics_fragments(data_input, output)
+print("Amount of antisymmetrics fragments > ",amount)
+print("Antisymmetric fragments > ", *output)
+
+os.chdir("..")
+os.chdir("output")
+with open(sys.argv[1],"a+") as g:
+    g.write(str(amount))	
+\end{lstlisting}
+
+\textbf{raport.py}
+\begin{lstlisting}
+import os
+from datetime import date, datetime
+from os.path import isfile, join, exists
+
+now = datetime.now()
+fulldate = now.strftime("%d-%m-%Y %H:%M:%S")
+
+outputfile = open("Raport.html", "w")
+
+outputfile.write(f"""
+<html>
+  <head>
+    <title>Raport Antysymetria</title>
+  </head>
+  <body>
+  <h1>Raport {fulldate}</h1>
+  <table>
+    <tr>
+      <th>input</th>
+      <th>output</th>
+    <tr>
+    """)
+	
+
+inputfiles = [file for file in os.listdir("input") if isfile(join("input", file))]
+for x in range(len(inputfiles)):
+    with open(f"input/{x}.txt", "r") as f:
+        lines = [str(line.rstrip()) for line in f]
+    outputfile.write(""" <tr><td>""" + str(lines).replace("'", "")[1:-1])
+
+    outputfile.write("""</td>
+          <td>""")
+    with open(f"output/{x}.txt", "r") as f:
+        lines = [str(line.rstrip()) for line in f]
+    outputfile.write(str(lines).replace("'", "")[1:-1])
+    outputfile.write("""</td>
+        </tr>""")
+outputfile.write("""
+  </table>
+  </body>
+</html>""")
+
+outputfile.close()
+\end{lstlisting}
+
+\end{document}

@@ -1,0 +1,414 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.7)  20 JAN 2023 15:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Dryzhakova_projekt_js_III_I.tex
+(Dryzhakova_projekt_js_III_I.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
+(D:\My Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(D:\My Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(D:\My Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/10/04 3.81 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(D:\My Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\My Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\My Programs\MiKTeX\tex/latex/babel-polish\polish.ldf
+Language: polish 2022/03/12 1.3 Babel support for Polish
+Package babel Info: Making " an active character on input line 101.
+))
+(D:\My Programs\MiKTeX\tex/generic/babel/locale/pl\babel-polish.tex
+Package babel Info: Importing font and identification data for polish
+(babel)             from babel-pl.ini. Reported on input line 11.
+)
+(D:\My Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(D:\My Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count195
+
+(D:\My Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip49
+
+(D:\My Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count196
+)
+(D:\My Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(D:\My Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip50
+\skiplinenumber=\skip51
+\skiprule=\skip52
+\skiphlne=\skip53
+\skiptext=\skip54
+\skiplength=\skip55
+\algomargin=\skip56
+\skipalgocfslide=\skip57
+\algowidth=\dimen140
+\inoutsize=\dimen141
+\inoutindent=\dimen142
+\interspacetitleruled=\dimen143
+\interspacealgoruled=\dimen144
+\interspacetitleboxruled=\dimen145
+\algocf@ruledwidth=\skip58
+\algocf@inoutbox=\box51
+\algocf@inputbox=\box52
+\AlCapSkip=\skip59
+\AlCapHSkip=\skip60
+\algoskipindent=\skip61
+\algocf@nlbox=\box53
+\algocf@hangingbox=\box54
+\algocf@untilbox=\box55
+\algocf@skipuntil=\skip62
+\algocf@capbox=\box56
+\algocf@lcaptionbox=\skip63
+\algoheightruledefault=\skip64
+\algoheightrule=\skip65
+\algotitleheightruledefault=\skip66
+\algotitleheightrule=\skip67
+\c@algocfline=\count197
+\c@algocfproc=\count198
+\c@algocf=\count199
+\algocf@algoframe=\box57
+\algocf@algobox=\box58
+)
+(D:\My Programs\MiKTeX\tex/latex/listings\listings.sty
+(D:\My Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+\lst@mode=\count266
+\lst@gtempboxa=\box59
+\lst@token=\toks17
+\lst@length=\count267
+\lst@currlwidth=\dimen146
+\lst@column=\count268
+\lst@pos=\count269
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
+\lst@newlines=\count270
+\lst@lineno=\count271
+\lst@maxwidth=\dimen149
+
+(D:\My Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count272
+\lst@skipnumbers=\count273
+\lst@framebox=\box60
+)
+(D:\My Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(D:\My Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(D:\My Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(D:\My Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen150
+\stockheight=\dimen151
+)
+(D:\My Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+(D:\My Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\My Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\My Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(D:\My Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(D:\My Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip68
+\subfigcapskip=\skip69
+\subfigcaptopadj=\dimen154
+\subfigbottomskip=\skip70
+\subfigcapmargin=\dimen155
+\subfiglabelskip=\skip71
+\c@subfigure=\count274
+\c@lofdepth=\count275
+\c@subtable=\count276
+\c@lotdepth=\count277
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(D:\My Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip72
+\subfig@bottom=\skip73
+)
+(D:\My Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(D:\My Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+Package color Info: Redefining color red on input line 19.
+Package color Info: Redefining color blue on input line 20.
+Package color Info: Redefining color green on input line 21.
+Package color Info: Redefining color cyan on input line 22.
+
+(D:\My Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(D:\My Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen156
+\captionmargin=\dimen157
+\caption@leftmargin=\dimen158
+\caption@rightmargin=\dimen159
+\caption@width=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count278
+\c@continuedfloat=\count279
+Package caption Info: listings package is loaded.
+Package caption Info: subfigure package is loaded.
+)
+(D:\My Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box61
+)
+(Dryzhakova_projekt_js_III_I.aux)
+\openout1 = `Dryzhakova_projekt_js_III_I.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+\c@lstlisting=\count281
+
+(D:\My Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count282
+\scratchdimen=\dimen164
+\scratchbox=\box62
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen165
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks19
+) (D:\My Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(D:\My Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 92.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 92.
+ [1
+
+{C:/Users/Катерина/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (2.87828pt too wide) in paragraph at lines 111--113
+\T1/cmr/m/n/12 pro-gramu. Po uru-cho-mie-niu wy-�wie-tli nam si� tekst z in-str
+uk-cj� ob-s�ugi pro-gramu,wymagaj�cy
+ []
+
+<pictures//choice.png, id=9, 234.8775pt x 170.43675pt>
+File: pictures//choice.png Graphic file (type png)
+<use pictures//choice.png>
+Package pdftex.def Info: pictures//choice.png  used on input line 116.
+(pdftex.def)             Requested size: 237.67912pt x 172.47002pt.
+<pictures//task1.png, id=11, 404.10976pt x 171.64125pt>
+File: pictures//task1.png Graphic file (type png)
+<use pictures//task1.png>
+Package pdftex.def Info: pictures//task1.png  used on input line 127.
+(pdftex.def)             Requested size: 427.81952pt x 181.71622pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pictures//raport.png, id=12, 380.01974pt x 124.66576pt>
+File: pictures//raport.png Graphic file (type png)
+<use pictures//raport.png>
+Package pdftex.def Info: pictures//raport.png  used on input line 133.
+(pdftex.def)             Requested size: 427.81952pt x 140.35323pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pictures//information.png, id=13, 911.20425pt x 230.66174pt>
+File: pictures//information.png Graphic file (type png)
+<use pictures//information.png>
+Package pdftex.def Info: pictures//information.png  used on input line 141.
+(pdftex.def)             Requested size: 475.35826pt x 120.33194pt.
+[2 <./pictures//choice.png>]
+<pictures//cmdRaport.png, id=20, 476.982pt x 597.432pt>
+File: pictures//cmdRaport.png Graphic file (type png)
+<use pictures//cmdRaport.png>
+Package pdftex.def Info: pictures//cmdRaport.png  used on input line 149.
+(pdftex.def)             Requested size: 475.35826pt x 595.40677pt.
+<pictures//treeBackups.png, id=21, 135.50626pt x 347.49825pt>
+File: pictures//treeBackups.png Graphic file (type png)
+<use pictures//treeBackups.png>
+Package pdftex.def Info: pictures//treeBackups.png  used on input line 155.
+(pdftex.def)             Requested size: 237.67912pt x 609.54144pt.
+ [3 <./pictures//task1.png> <./pictures//raport.png> <./pictures//information.p
+ng>] [4 <./pictures//cmdRaport.png>] [5 <./pictures//treeBackups.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 175.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 175.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 175.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+<pictures//tree1.png, id=36, 137.91525pt x 432.4155pt>
+File: pictures//tree1.png Graphic file (type png)
+<use pictures//tree1.png>
+Package pdftex.def Info: pictures//tree1.png  used on input line 183.
+(pdftex.def)             Requested size: 109.33037pt x 342.79216pt.
+<pictures//tree2.png, id=37, 160.80075pt x 472.76625pt>
+File: pictures//tree2.png Graphic file (type png)
+<use pictures//tree2.png>
+Package pdftex.def Info: pictures//tree2.png  used on input line 186.
+(pdftex.def)             Requested size: 104.57939pt x 307.47476pt.
+<pictures//tree3.png, id=38, 199.947pt x 468.5505pt>
+File: pictures//tree3.png Graphic file (type png)
+<use pictures//tree3.png>
+Package pdftex.def Info: pictures//tree3.png  used on input line 188.
+(pdftex.def)             Requested size: 114.0886pt x 267.34824pt.
+[6 <./pictures//tree1.png> <./pictures//tree2.png> <./pictures//tree3.png>]
+<pictures//Dryzhakova_Projekt.png, id=48, 1961.3275pt x 914.41624pt>
+File: pictures//Dryzhakova_Projekt.png Graphic file (type png)
+<use pictures//Dryzhakova_Projekt.png>
+Package pdftex.def Info: pictures//Dryzhakova_Projekt.png  used on input line 2
+42.
+(pdftex.def)             Requested size: 332.74933pt x 155.12779pt.
+
+[7] [8 <./pictures//Dryzhakova_Projekt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--256
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+59.
+(D:\My Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<pictures//11001011.png, id=59, 401.70074pt x 48.78226pt>
+File: pictures//11001011.png Graphic file (type png)
+<use pictures//11001011.png>
+Package pdftex.def Info: pictures//11001011.png  used on input line 287.
+(pdftex.def)             Requested size: 332.74933pt x 40.40959pt.
+<pictures//101.png, id=60, 365.56575pt x 63.8385pt>
+File: pictures//101.png Graphic file (type png)
+<use pictures//101.png>
+Package pdftex.def Info: pictures//101.png  used on input line 300.
+(pdftex.def)             Requested size: 332.74933pt x 58.10773pt.
+<pictures//1100.png, id=61, 209.583pt x 52.39575pt>
+File: pictures//1100.png Graphic file (type png)
+<use pictures//1100.png>
+Package pdftex.def Info: pictures//1100.png  used on input line 315.
+(pdftex.def)             Requested size: 285.21785pt x 71.31082pt.
+ [9 <./pictures//11001011.png>] [10 <./pictures//101.png> <./pictures//1100.png
+>] [11] [12] [13]
+(Dryzhakova_projekt_js_III_I.aux) ) 
+Here is how much of TeX's memory you used:
+ 7339 strings out of 475385
+ 120054 string characters out of 2787628
+ 871860 words of memory out of 3000000
+ 28661 multiletter control sequences out of 15000+600000
+ 481603 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,15n,63p,560b,1639s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Катерина\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Катерина
+\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users
+\Катерина\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
+200.pk> <C:\Users\Катерина\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ecrm1000.pk> <C:\Users\Катерина\AppData\Local\MiKTeX\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Катерина\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Катер
+ина\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:
+\Users\Катерина\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecrm1440.pk> <C:\Users\Катерина\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecrm1095.pk> <C:\Users\Катерина\AppData\Local\MiKTeX\
+fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><D:/My Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><D:/My Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><D:/My Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb>
+Output written on Dryzhakova_projekt_js_III_I.pdf (13 pages, 377679 bytes).
+PDF statistics:
+ 432 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+
