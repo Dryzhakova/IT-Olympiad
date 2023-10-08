@@ -1,5 +1,5 @@
 # IT-Olympiad Task Antisymmetry
-Task:https://szkopul.edu.pl/problemset/problem/kBgruExq9qEwLJY2oQIAFnnj/site/?key=statement
+Task: https://szkopul.edu.pl/problemset/problem/kBgruExq9qEwLJY2oQIAFnnj/site/?key=statement
 
 # Po uruchomieniu programu za pomocą skryptu menu.bat, masz dostęp do następujących opcji:
 
